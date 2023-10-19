@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.footer {
+  width: 375px;
+  /* height: 588px; */
+  flex-shrink: 0;
+  background: #242424;
+}
+
+.input-form {
+  border-radius: 30px;
+  border: 1px solid #f4f4f4;
+}
