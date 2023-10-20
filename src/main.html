@@ -9,46 +9,60 @@
   </head>
   <body>
     <footer class="footer">
-      <a href="" class="footer-logo"><span>YOUR ENERGY</span></a>
-      <ul>
-        <li>
-          <a href="">
-            <svg>O</svg>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <svg>O</svg>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <svg>O</svg>
-          </a>
-        </li>
-      </ul>
-      <h2>Transforming your body shape with us</h2>
-      <p>Subscribe and learn about new exercises!</p>
-      <form id="subscriptionForm" action="backend-url" method="post">
-        <label for="email"></label>
-        <input
-          class="input-form"
-          type="email"
-          id="email"
-          name="email"
-          pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
-          required
-          placeholder="Email"
-        />
-        <button type="submit">Send</button>
-      </form>
-      <p>Your Energy. All rights reserved.</p>
-      <p>
-        <a href="">Privacy Policy </a>
-        /
-        <a href="">Terms of Service </a>
-      </p>
-      <p>©2023</p>
+      <div class="footer-container">
+        <a href="" class="footer-logo"><svg>LOGO</svg> </a>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/goITclub/">
+              <svg width="40" height="40">O</svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/goitclub/">
+              <svg width="40" height="40">O</svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/c/GoIT">
+              <svg width="40" height="40">O</svg>
+            </a>
+          </li>
+        </ul>
+        <h2 class="footer-title">Transforming your body shape with us</h2>
+        <div class="footer-form-container">
+          <h3 class="footer-text-1">
+            Subscribe and learn about new exercises!
+          </h3>
+          <form id="subscriptionForm" class="footer-form">
+            <label for="email" class="footer-label"></label>
+            <input
+              class="footer-input-form"
+              type="email"
+              id="email"
+              name="email"
+              pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+              required
+              placeholder="Email"
+            />
+            <button type="submit" class="footer-btn">Send</button>
+          </form>
+        </div>
+        <div class="text-container-1">
+          <div>
+            <p class="footer-text-2">Your Energy. All rights reserved.</p>
+          </div>
+          <div class="text-container-2">
+            <p class="footer-text-2">
+              <a href="" class="footer-link">Privacy Policy </a>
+            </p>
+            <p class="footer-text-2">/</p>
+            <p class="footer-text-2">
+              <a href="" class="footer-link">Terms of Service </a>
+            </p>
+            <p class="footer-text-3 footer-text-2">©2023</p>
+          </div>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
